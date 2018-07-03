@@ -1,3 +1,5 @@
+Move files with common text in filename.
+
 ```
 mv *string* directory/
 ```
