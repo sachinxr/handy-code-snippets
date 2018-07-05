@@ -25,4 +25,9 @@ Make matrix from two columns (A, B) of a dataframe and use third column (C) to p
 xtabs(C ~ B + A, data=aggregate(C ~ B + A, data=df, FUN=mean))
 ```
 
+Sort a dataframe by two columns
 
+```
+# Use - to sort in descending order.
+dataframe[ order(-dataframe[,1], dataframe[,2]),]
+```
